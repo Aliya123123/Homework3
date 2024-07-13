@@ -76,8 +76,8 @@ public class Main {
         int iceCream2 = iceCream * 2;
         int egg4 = egg * 4;
         int gramsRecipe = banana5 + milk2 + iceCream2 + egg4;
-        short kg = 1000;
-        int kgRecipe = gramsRecipe / kg;
+        double kg = 1000;
+        double kgRecipe = gramsRecipe / kg;
         System.out.println("Спортсмены съедают за завтрак " + gramsRecipe + " граммов, либо же " + kgRecipe + " килограмм");
 
         System.out.println("Задание 7");
@@ -85,7 +85,8 @@ public class Main {
         short weightLossMin = 250;
         short weightLossMax = 500;
         int weightLossAverage = (weightLossMin + weightLossMax) / 2;
-        int weightGr = weight * kg;
+        int kgg = 1000;
+        int weightGr = weight * kgg;
         int weightLossMinDay = weightGr / weightLossMin;
         int weightLossMaxDay = weightGr / weightLossMax;
         int weightLossAverageDay = weightGr / weightLossAverage;
